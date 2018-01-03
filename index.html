@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>软间隔 - Soft Margin </title>
+
+
+        <meta name="description" content="My personal hexo blog">
+        <meta name="author" content="Surflyan">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+        <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+			 <section style="margin-top:2%" id = "fragments" data-transition="convex" data-background-transition="zoom">
+                 <h1><p class = "fragment shrink">软间隔 </h1></p>
+
+                 <h1><p class = "fragment grow" style = "color:#1ea424" >Soft Magin</p></h1>
+
+
+                <small>
+                    <a href="#/1">Surflyan</a> 'blog
+                </small>
+
+              </section>
+
+
+
+                <section data-markdown>
+                    <script type="text/template">
+                        <img src="image/pic.jpg" style="
+                            width: 200px;
+                            border-radius: 50%;
+                        "/>
+                        ### Surflyan
+                        a junior student, major in CS
+
+
+                        <small>
+                            <a href="http://www.softmargin.com">Blog</a> /
+                            <a href="http://weibo.com/Surflyan">@Surflyan</a> /
+                            <a href="https://github.com/Surflyan">GitHub</a> /
+                            <a href="http://www.facebook.com/Surflyan">Facebook</a>
+                        </small>
+                    </script>
+                </section>
+
+             	<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom" data-autoslide = "8000">
+					<h2>Greetings from Surflyan</h2>
+	                <pre><code class="hljs">
+                    # -- coding: utf-8 --
+                    print "hello, stranger!"
+                    </code></pre>
+
+					<pre><code class="hljs">
+                    #include<iostream>
+                    using namespace std;
+                    int main(int argc, char*argv[]) {
+                    printf("hello, stranger!");
+                    }
+                    </code></pre>
+                    <pre><code class="hljs">
+                    public class Main {
+                        public static void main(String[] args) throws Exception {
+                            System.out.println("hello, stranger!");
+                        }
+                    }
+                    </code></pre>
+				</section>
+
+
+				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
+					<h3>The purpose of computing is insight, not numbers.</h3>
+				    <p class="fragment fade-up" align="right">—Richard Hamming </p>
+				</section>
+
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+
+                controls: true,
+                progress: true,
+                history: false,
+                loop: true,
+                autoSlide: 5000,
+                previewLinks: false,
+
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
